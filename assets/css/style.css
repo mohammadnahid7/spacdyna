@@ -53,6 +53,10 @@ a {
   text-decoration: none;
 }
 
+i {
+  font-family: "Font Awesome";
+}
+
 * {
   box-sizing: border-box;
   line-height: 1.5;
@@ -706,4 +710,174 @@ a {
 .offer .row .row .offer-item:hover .offer-item__tip-body {
   visibility: visible;
   transform: translateY(-20px);
+}
+
+@media (min-width: 992px) {
+  .tranding > .row {
+    background-image: url("../images/blog-dec.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding-top: 5rem;
+  }
+}
+.tranding > .row .tranding__title {
+  width: calc(100% - 1.875rem);
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .tranding > .row .tranding__title {
+    width: calc(100% - 1.875rem);
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+    margin-right: 60%;
+    margin-bottom: 3.125rem;
+    text-align: left;
+  }
+}
+.tranding > .row .tranding__left {
+  width: calc(100% - 1.875rem);
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
+}
+@media (min-width: 992px) {
+  .tranding > .row .tranding__left {
+    width: calc(50% - 1.875rem);
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+  }
+}
+.tranding > .row .tranding__left > div {
+  position: relative;
+}
+.tranding > .row .tranding__left img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 1.25rem;
+}
+.tranding > .row .tranding__left .tranding__item {
+  position: absolute;
+  padding: 1.875rem;
+  text-align: left;
+  height: auto;
+  bottom: 0;
+  transform: translateY(50%);
+}
+@media (min-width: 992px) {
+  .tranding > .row .tranding__left .tranding__item {
+    width: 90%;
+  }
+}
+.tranding > .row .tranding__left .tranding__item .tranding__item-meta {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.tranding > .row .tranding__left .tranding__item .tranding__item-meta li {
+  margin-right: 0.9375rem;
+  color: #afafaf;
+  font-weight: 300;
+}
+.tranding > .row .tranding__left .tranding__item .tranding__item-meta li i {
+  color: #fe3f40;
+  margin-right: 0.625rem;
+}
+.tranding > .row .tranding__left .tranding__item .tranding__item-title {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.tranding > .row .tranding__left .tranding__item .tranding__item-text {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #2a2a2a;
+  line-height: 2;
+}
+.tranding > .row .tranding__left .button {
+  margin-top: 5%;
+}
+@media (min-width: 992px) {
+  .tranding > .row .tranding__left .button {
+    position: absolute;
+    margin-top: 4.375rem;
+    left: 0;
+  }
+}
+.tranding > .row .tranding__right {
+  margin-top: 10.625rem;
+  width: calc(100% - 1.875rem);
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
+}
+@media (min-width: 992px) {
+  .tranding > .row .tranding__right {
+    width: calc(50% - 1.875rem);
+    margin-left: 0.9375rem;
+    margin-right: 0.9375rem;
+  }
+}
+.tranding > .row .tranding__right .tranding__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+  text-align: left;
+  box-shadow: none;
+  border-top: 1px solid #eee;
+}
+@media (min-width: 992px) {
+  .tranding > .row .tranding__right .tranding__item {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    flex-wrap: nowrap;
+    border-top: 0;
+  }
+}
+.tranding > .row .tranding__right .tranding__item > div {
+  width: 100%;
+}
+.tranding > .row .tranding__right .tranding__item .tranding__item-meta {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.tranding > .row .tranding__right .tranding__item .tranding__item-meta li {
+  margin-right: 0.9375rem;
+  color: #afafaf;
+  font-weight: 300;
+}
+.tranding > .row .tranding__right .tranding__item .tranding__item-meta li i {
+  color: #fe3f40;
+  margin-right: 0.625rem;
+}
+.tranding > .row .tranding__right .tranding__item .tranding__item-title {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.tranding > .row .tranding__right .tranding__item .tranding__item-text {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #2a2a2a;
+  line-height: 2;
+}
+.tranding > .row .tranding__right .tranding__item img {
+  border-radius: 1.25rem;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 1.25rem;
+}
+@media (min-width: 992px) {
+  .tranding > .row .tranding__right .tranding__item img {
+    margin-left: 1.875rem;
+    width: auto;
+  }
 }
